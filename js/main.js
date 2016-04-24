@@ -43,12 +43,12 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("assets/sounds/cristi-jump.mp3");
+var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
 var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
-var startSound = new buzz.sound("assets/sounds/du-te.mp3");
-var soundHit = new buzz.sound("assets/sounds/");
-var soundDie = new buzz.sound("assets/sounds/");
-var soundSwoosh = new buzz.sound("assets/sounds/ba-cristi.mp3");
+// var startSound = new buzz.sound("assets/sounds/sfx_.ogg");
+var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
+var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
+var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
 buzz.all().setVolume(volume);
 
 //loops
