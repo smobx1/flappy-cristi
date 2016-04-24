@@ -379,6 +379,7 @@ function playerDead()
       soundHit.play().bindOnce("ended", function() {
          soundDie.play().bindOnce("ended", function() {
             showScore();
+            location.reload();
          });
       });
    }
