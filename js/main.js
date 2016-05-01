@@ -43,11 +43,11 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
-var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
-var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
-var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
-var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
+var soundJump = new buzz.sound("assets/sounds/sfx_wing.mp3");
+var soundScore = new buzz.sound("assets/sounds/sfx_point.mp3");
+var soundHit = new buzz.sound("assets/sounds/sfx_hit.mp3");
+var soundDie = new buzz.sound("assets/sounds/sfx_die.mp3");
+var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.mp3");
 buzz.all().setVolume(volume);
 
 //loops
@@ -166,10 +166,8 @@ function gameloop() {
 
    //create the bounding box
    var box = document.getElementById('player').getBoundingClientRect();
-  //  var origwidth = 34.0;
    var origwidth = 34.0;
-   var origheight = 15.0; // 24.00
-
+   var origheight = 24.0;
 
    var boxwidth = origwidth - (Math.sin(Math.abs(rotation) / 90) * 8);
    var boxheight = (origheight + box.height) / 2;
