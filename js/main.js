@@ -44,9 +44,9 @@ var replayclickable = false;
 //sounds
 var volume = 100;
 var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
-var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
+var soundScore = new buzz.sound("assets/sounds/sfx_point.mp3");
 var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
-var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
+var soundDie = new buzz.sound("assets/sounds/sfx_die.mp3");
 var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
 buzz.all().setVolume(volume);
 
