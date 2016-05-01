@@ -1,1 +1,2 @@
-<gap:plugin name="org.apache.cordova.media" />
+<!-- <gap:plugin name="org.apache.cordova.media" /> -->
+<gap:plugin name="org.apache.cordova.core.Device"/>
