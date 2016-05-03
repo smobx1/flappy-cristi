@@ -43,11 +43,11 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("assets/sounds/sfx_wing.mp3");
-var soundScore = new buzz.sound("/assets/sounds/sfx_point.ogg");
-var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
-var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
-var soundSwoosh = new buzz.sound("/assets/sounds/sfx_swooshing.ogg");
+// var soundJump = new buzz.sound("assets/sounds/sfx_wing.mp3");         // jump()
+var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");       // trece prin pipes()
+var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");           // hit()
+var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");           // 1s dupa hit()
+var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");  // la      start() (hu)
 buzz.all().setVolume(volume);
 
 //loops
