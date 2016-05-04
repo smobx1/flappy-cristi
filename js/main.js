@@ -46,8 +46,8 @@ var volume = 30;
 var soundJump = new buzz.sound("/assets/sounds/sfx_wing.mp3");         // jump()
 var soundScore = new buzz.sound("/assets/sounds/sfx_point.mp3");       // trece prin pipes()
 var soundHit = new buzz.sound("assets/sounds/sfx_hit.mp3");           // hit()
-var soundDie = new buzz.sound("assets/sounds/cristi.mp3");           // 1s dupa hit()
-var soundSwoosh = new buzz.sound("/assets/sounds/sfx_swooshing.mp3");  // la      start() (hu)
+var soundDie = new buzz.sound("/assets/sounds/cristi.mp3");           // 1s dupa hit()
+var soundSwoosh = new buzz.sound("assets/sounds/cristi.mp3");  // la      start() (hu)
 buzz.all().setVolume(volume);
 
 //loops
