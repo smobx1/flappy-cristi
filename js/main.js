@@ -43,7 +43,7 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("assets/sounds/sfx_wing.mp3");         // jump()
+// var soundJump = new buzz.sound("assets/sounds/sfx_wing.mp3");         // jump()
 var soundScore = new buzz.sound("assets/sounds/sfx_point.mp3");       // trece prin pipes()
 var soundHit = new buzz.sound("assets/sounds/cristi-iii.mp3");           // hit()
 var soundDie = new buzz.sound("assets/sounds/sfx_die.mp3");           // 1s dupa hit()
