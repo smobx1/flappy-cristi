@@ -46,7 +46,7 @@ var volume = 30;
 var soundJump = new buzz.sound("/assets/sounds/sfx_wing.mp3");         // jump()
 var soundScore = new buzz.sound("/assets/sounds/sfx_point.mp3");       // trece prin pipes()
 var soundHit = new buzz.sound("assets/sounds/sfx_hit.mp3");           // hit()
-var soundDie = new buzz.sound("/assets/sounds/cristi.mp3");           // 1s dupa hit()
+var soundDie = new buzz.sound("assets/sounds/cristi.mp3");           // 1s dupa hit()
 var soundSwoosh = new buzz.sound("assets/sounds/cristi.mp3");  // la      start() (hu)
 buzz.all().setVolume(volume);
 
@@ -376,10 +376,10 @@ function playerDead()
    {
       //play the hit sound (then the dead sound) and then show score
       soundHit.play().bindOnce("ended", function() {
-         soundDie.play().bindOnce("ended", function() {
+        //  soundDie.play().bindOnce("ended", function() {
             showScore();
          });
-      });
+      // });
    }
 }
 
