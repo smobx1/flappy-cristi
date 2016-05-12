@@ -18,7 +18,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
   };
 }
 
-alert();
+
 
 function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }

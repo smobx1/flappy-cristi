@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "TASK"
-        versionCode = "test.example.ro"
+        id          = "cristi.flappy.example"
+        versionCode = "1"
         version     = "1.0.0">
 
 
     <!-- versionCode is optional and Android only -->
-    <!-- <preference name="DisallowOverscroll" value="true" /> -->
+    <preference name="DisallowOverscroll" value="true" />
 
 
     <!-- start plugin -->
     <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
 
 
-    <!-- <preference name="permissions" value="none"/>
+    <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-    <framework src="com.google.android.gms:play-services-ads:+" /> -->
+    <framework src="com.google.android.gms:play-services-ads:+" />
 
     <!-- end plugin -->
 
@@ -30,13 +30,10 @@
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Design Room
+        DesignRoom
     </author>
-    <!-- admob -->
-    <preference name="permissions" value="none"/>
-    <preference name="android-build-tool" value="gradle" />
-    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-    <framework src="com.google.android.gms:play-services-ads:+" />
+
+
 <!-- START SPLASH -->
 <!-- iPhone and iPod touch -->
 <splash src="assets/splashscreen.png" platform="ios" width="320" height="480" />
