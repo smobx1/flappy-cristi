@@ -18,7 +18,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
   };
 }
 
-
+alert();
 
 function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
@@ -67,7 +67,7 @@ function initApp() {
         someAdCode();
         // schedule it to repeat every 2 minutes
         setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
-    }, 750);
+    }, 1750);
 
 
 
