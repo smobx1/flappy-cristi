@@ -32,7 +32,7 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Design Room
     </author>
-
+    <!-- admob -->
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
