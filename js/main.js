@@ -135,7 +135,7 @@ function startGame()
       //show the bounding boxes
       $(".boundingbox").show();
    }
-   
+
 
    //start up our loops
    var updaterate = 1000.0 / 60.0 ; //60 times a second
@@ -168,7 +168,7 @@ function gameloop() {
    //create the bounding box
    var box = document.getElementById('player').getBoundingClientRect();
    var origwidth = 34.0;
-   var origheight = 20.0;
+   var origheight = 16.0;
 
    var boxwidth = origwidth - (Math.sin(Math.abs(rotation) / 90) * 8);
    var boxheight = (origheight + box.height) / 2;
