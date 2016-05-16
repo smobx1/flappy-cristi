@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.designroom.cristi"
+        id          = "cristi.flappy.example"
         versionCode = "3.0.1"
         version     = "3.0.1">
 
@@ -9,7 +9,10 @@
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-
+    <!--
+          id          = "com.designroom.cristi"             // ios
+          id          = "cristi.flappy.example"             // android
+     -->
     <!-- start plugin -->
     <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
 
