@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cristi.flappy.example"
-        versionCode = "3.0.5"
-        version     = "3.5">
+        versionCode = "40"
+        version     = "4.0">
 
 
     <!-- versionCode is optional and Android only -->
