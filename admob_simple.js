@@ -67,7 +67,7 @@ function initApp() {
         someAdCode();
         // schedule it to repeat every 2 minutes
         // setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
-        setInterval(someAdCode, 1 * 30 * 1000); // 1000 = 1s
+        // setInterval(someAdCode, 1 * 30 * 1000); // 1000 = 1s
     }, 750);
 
 

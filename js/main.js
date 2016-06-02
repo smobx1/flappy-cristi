@@ -450,6 +450,7 @@ $("#replay").click(function() {
 
       //start the game over!
       showSplash();
+      someAdCode(); // test interstitial cand e GAME OVER
    });
 });
 
