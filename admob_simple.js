@@ -60,6 +60,16 @@ function initApp() {
                 isTesting: true, // TODO: remove this line when release
                 autoShow: true
               });
+
+
+              AdMob.createBanner( {
+                adId: admobid.banner,
+                position: AdMob.AD_POSITION.TOP_CENTER,
+                isTesting: true, // TODO: remove this line when release
+                overlap: false,
+                offsetTopBar: false,
+                bgColor: 'black'
+              } );
     }
 
     // start it in 2 seconds
