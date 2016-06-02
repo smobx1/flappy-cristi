@@ -57,7 +57,7 @@ function initApp() {
               // this will load a full screen ad on startup
               AdMob.prepareInterstitial({
                 adId: admobid.interstitial,
-                // isTesting: true, // TODO: remove this line when release
+                isTesting: true, // TODO: remove this line when release
                 autoShow: true
               });
     }
@@ -66,7 +66,8 @@ function initApp() {
     setTimeout(function() {
         someAdCode();
         // schedule it to repeat every 2 minutes
-        setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+        // setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+        setInterval(someAdCode, 1 * 30 * 1000); // 1000 = 1s
     }, 750);
 
 
