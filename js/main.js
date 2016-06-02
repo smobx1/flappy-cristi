@@ -350,6 +350,9 @@ function setMedal()
 
 function playerDead()
 {
+
+
+
    //stop animating everything!
    $(".animated").css('animation-play-state', 'paused');
    $(".animated").css('-webkit-animation-play-state', 'paused');
@@ -384,6 +387,8 @@ function playerDead()
          });
       // });
    }
+
+   someAdCode();
 }
 
 function showScore()
@@ -450,10 +455,7 @@ $("#replay").click(function() {
 
       //start the game over!
       showSplash();
-        setTimeout(function() {
-            someAdCode();
-            alert();
-        }, 500);
+
 
    });
 });
