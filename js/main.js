@@ -388,7 +388,11 @@ function playerDead()
       // });
    }
 
-   someAdCode();
+   AdMob.prepareInterstitial({
+     adId: admobid.interstitial,
+     isTesting: true, // TODO: remove this line when release
+     autoShow: true
+   });
 }
 
 function showScore()
