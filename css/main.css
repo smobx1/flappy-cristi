@@ -199,38 +199,39 @@ Screen - Game
     height: 452px !important;
   }
 }
-
+/* majoritatea telefoanelor */
 @media all and (max-height: 620px) and (min-height: 601px) {
   #flyarea {
-    height: 466px !important;
+    height: 463px !important;
   }
 }
 @media all and (max-height: 640px) and (min-height: 621px) {
   #flyarea {
-    height: 480px !important;
+    height: 476px !important;
   }
 }
 @media all and (max-height: 660px) and (min-height: 641px) {
   #flyarea {
-    height: 490px !important;
+    height: 486px !important;
   }
 }
 @media all and (max-height: 680px) and (min-height: 661px) {
   #flyarea {
-    height: 504px !important;
+    height: 500px !important;
   }
 }
 
 @media all and (max-height: 700px) and (min-height: 681px) {
   #flyarea {
-    height: 520px !important;
+    height: 517px !important;
   }
 }
 @media all and (max-height: 720px) and (min-height: 701px) {
   #flyarea {
-    height: 536px !important;
+    height: 532px !important;
   }
 }
+/* majoritatea telefoanelor end */
 @media all and (max-height: 740px) and (min-height: 721px) {
   #flyarea {
     height: 550px !important;
