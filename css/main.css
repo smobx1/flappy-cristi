@@ -170,10 +170,174 @@ Screen - Game
    height: 420px;
    width: 100%;
 }
+@media all and (max-height: 530px) and (min-height: 500px) {
+  #flyarea {
+    height: 410px !important;
+  }
+}
+
+@media all and (max-height: 550px) and (min-height: 531px) {
+  #flyarea {
+    height: 422px !important;
+  }
+}
+
+@media all and (max-height: 560px) and (min-height: 551px) {
+  #flyarea {
+    height: 432px !important;
+  }
+}
+
+@media all and (max-height: 580px) and (min-height: 561px) {
+  #flyarea {
+    height: 440px !important;
+  }
+}
+
+@media all and (max-height: 600px) and (min-height: 581px) {
+  #flyarea {
+    height: 460px !important;
+  }
+}
+
+@media all and (max-height: 620px) and (min-height: 601px) {
+  #flyarea {
+    height: 475px !important;
+  }
+}
+@media all and (max-height: 640px) and (min-height: 621px) {
+  #flyarea {
+    height: 488px !important;
+  }
+}
+@media all and (max-height: 660px) and (min-height: 641px) {
+  #flyarea {
+    height: 500px !important;
+  }
+}
+@media all and (max-height: 680px) and (min-height: 661px) {
+  #flyarea {
+    height: 513px !important;
+  }
+}
+
+@media all and (max-height: 700px) and (min-height: 681px) {
+  #flyarea {
+    height: 529px !important;
+  }
+}
+@media all and (max-height: 720px) and (min-height: 701px) {
+  #flyarea {
+    height: 545px !important;
+  }
+}
+@media all and (max-height: 740px) and (min-height: 721px) {
+  #flyarea {
+    height: 560px !important;
+  }
+}
+@media all and (max-height: 760px) and (min-height: 741px) {
+  #flyarea {
+    height: 575px !important;
+  }
+}
+@media all and (max-height: 780px) and (min-height: 761px) {
+  #flyarea {
+    height: 590px !important;
+  }
+}
+@media all and (max-height: 800px) and (min-height: 781px) {
+  #flyarea {
+    height: 605px !important;
+  }
+}
+
+
+@media all and (max-height: 820px) and (min-height: 801px) {
+  #flyarea {
+    height: 620px !important;
+  }
+}
+
+@media all and (max-height: 840px) and (min-height: 821px) {
+  #flyarea {
+    height: 637px !important;
+  }
+}
+@media all and (max-height: 860px) and (min-height: 841px) {
+  #flyarea {
+    height: 652px !important;
+  }
+}
+@media all and (max-height: 880px) and (min-height: 861px) {
+  #flyarea {
+    height: 675px !important;
+  }
+}
+@media all and (max-height: 900px) and (min-height: 881px) {
+  #flyarea {
+    height: 693px !important;
+  }
+}
+@media all and (max-height: 920px) and (min-height: 901px) {
+  #flyarea {
+    height: 713px !important;
+  }
+}
+@media all and (max-height: 940px) and (min-height: 921px) {
+  #flyarea {
+    height: 730px !important;
+  }
+}
+@media all and (max-height: 960px) and (min-height: 941px) {
+  #flyarea {
+    height: 748px !important;
+  }
+}
+@media all and (max-height: 980px) and (min-height: 961px) {
+  #flyarea {
+    height: 765px !important;
+  }
+}
+@media all and (max-height: 1000px) and (min-height: 981px) {
+  #flyarea {
+    height: 782px !important;
+  }
+}
+/* ipads */
+
+@media all and (max-height: 1020px) and (min-height: 1001px) {
+  #flyarea {
+    height: 800px !important;
+  }
+}
+@media all and (max-height: 1040px) and (min-height: 1021px) {
+  #flyarea {
+    height: 815px !important;
+  }
+}
+@media all and (max-height: 1060px) and (min-height: 1041px) {
+  #flyarea {
+    height: 830px !important;
+  }
+}
+@media all and (max-height: 1080px) and (min-height: 1061px) {
+  #flyarea {
+    height: 845px !important;
+  }
+}
+@media all and (max-height: 1100px) and (min-height: 1081px) {
+  #flyarea {
+    height: 860px !important;
+  }
+}
+
+
 
 #ceiling
 {
    position: absolute;
+   /*top: -16px;*/
    top: -16px;
    height: 16px;
    width: 100%;
