@@ -390,7 +390,7 @@ function playerDead()
 
    AdMob.prepareInterstitial({
      adId: admobid.interstitial,
-     isTesting: true, // TODO: remove this line when release
+    //  isTesting: true, // TODO: remove this line when release
      autoShow: true
    });
 }
